@@ -77,8 +77,15 @@ export default function Hero() {
             ref={row1Ref}
             className="font-clash font-bold text-[clamp(2.4rem,12vw,10rem)] md:text-[clamp(3.8rem,14vw,12.5rem)] leading-[0.85] tracking-wide flex items-center justify-center select-none text-brandText will-change-transform"
           >
-            RODRIG
-            <span className="hero-char-mask relative w-[0.78em] h-[0.78em] mx-[0.03em] rounded-full overflow-hidden cursor-pointer inline-block">
+            {"RODRIG".split("").map((char, i) => (
+              <span
+                key={i}
+                className="inline-block transition-colors duration-300 ease-out hover:text-brandGreen cursor-default"
+              >
+                {char}
+              </span>
+            ))}
+            <span className="hero-char-mask relative w-[0.78em] h-[0.78em] mx-[0.03em] rounded-full overflow-hidden cursor-pointer inline-block transition-all duration-300 ease-out hover:ring-2 hover:ring-brandGreen">
               <img
                 src="/rodrigo-santos.jpeg"
                 alt="O"
@@ -94,7 +101,14 @@ export default function Hero() {
             ref={row2Ref}
             className="font-clash font-light text-[clamp(1.8rem,8vw,7.5rem)] md:text-[clamp(2.8rem,10vw,9.5rem)] leading-[0.85] tracking-wide flex items-center justify-center select-none text-brandText will-change-transform"
           >
-            SANTOS
+            {"SANTOS".split("").map((char, i) => (
+              <span
+                key={i}
+                className="inline-block transition-colors duration-300 ease-out hover:text-brandGreen cursor-default"
+              >
+                {char}
+              </span>
+            ))}
           </h2>
         </div>
 
