@@ -22,3 +22,10 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# generated copy docs
+COPY.md
+COPY-new.md
+
+# scripts (utility only, not part of the app)
+scripts/

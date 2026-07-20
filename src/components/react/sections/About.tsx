@@ -42,7 +42,7 @@ export default function About() {
                 <RevealText text="Core Focus" as="span" mode="char" stagger={0.02} duration={1.0} />
               </dt>
               <dd className="text-brandText font-medium mt-1">
-                <RevealText text="Webflow Development, Custom JS & GSAP, Component Design, React" as="span" mode="word" stagger={0.02} duration={1.0} />
+                <RevealText text="Webflow Development, Custom JS & GSAP, Component Design, React, Astro" as="span" mode="word" stagger={0.02} duration={1.0} />
               </dd>
             </div>
             <div>
@@ -83,7 +83,7 @@ export default function About() {
           />
 
           <RevealText
-            text="My development style is influenced by modern frontend practices. Working with React and TypeScript taught me to think in reusable components and predictable states. Bringing this structured mindset to Webflow lets me build custom marketing platforms that look premium, remain easy for clients to update, and load instantly."
+            text="My development style is influenced by modern frontend practices. Working with React, Astro, and TypeScript taught me to think in reusable components and predictable states. Bringing this structured mindset to Webflow lets me build custom marketing platforms that look premium, remain easy for clients to update, and load instantly."
             as="p"
             mode="word"
             stagger={0.015}

@@ -16,7 +16,7 @@ export const topMarqueeItems = [
   "React",
   "TypeScript",
   "GSAP Animation",
-  "Astro CMS",
+  "Astro",
   "Component Architecture",
   "Responsive Design",
 ] as const;
