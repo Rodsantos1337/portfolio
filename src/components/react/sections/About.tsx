@@ -42,15 +42,7 @@ export default function About() {
                 <RevealText text="Core Focus" as="span" mode="char" stagger={0.02} duration={1.0} />
               </dt>
               <dd className="text-brandText font-medium mt-1">
-                <RevealText text="Webflow Development, Custom JS & GSAP, Component Design" as="span" mode="word" stagger={0.02} duration={1.0} />
-              </dd>
-            </div>
-            <div className="border-b border-bgBorder/50 pb-4">
-              <dt className="text-[10px] font-mono text-brandGreen/80 uppercase tracking-wider">
-                <RevealText text="Current Pursuit" as="span" mode="char" stagger={0.02} duration={1.0} />
-              </dt>
-              <dd className="text-brandText font-medium mt-1">
-                <RevealText text="Merging modern frontend workflows with visual website development" as="span" mode="word" stagger={0.02} duration={1.0} />
+                <RevealText text="Webflow Development, Custom JS & GSAP, Component Design, React" as="span" mode="word" stagger={0.02} duration={1.0} />
               </dd>
             </div>
             <div>
@@ -83,7 +75,7 @@ export default function About() {
           <div className="h-[1px] bg-bgBorder w-full my-4" />
 
           <RevealText
-            text="Over the past three years, I have built production-ready, client-first web experiences. I polished my skills within the remote creative agency Better Mistakes, handled direct client communication as a top-rated freelancer, and currently deliver custom frontend solutions for global companies."
+            text="Over the past four years, I have built production-ready, client-first web experiences. I polished my skills within the remote creative agency Better Mistakes also handled direct client communication as a top-rated freelancer,"
             as="p"
             mode="word"
             stagger={0.015}
@@ -91,7 +83,7 @@ export default function About() {
           />
 
           <RevealText
-            text="My development style is heavily influenced by modern frontend practices. Working with React and TypeScript taught me to think in reusable components and predictable states. Bringing this structured mindset to Webflow lets me build custom marketing platforms that look premium, remain easy for clients to update, and load instantly."
+            text="My development style is influenced by modern frontend practices. Working with React and TypeScript taught me to think in reusable components and predictable states. Bringing this structured mindset to Webflow lets me build custom marketing platforms that look premium, remain easy for clients to update, and load instantly."
             as="p"
             mode="word"
             stagger={0.015}

@@ -10,7 +10,7 @@ export default function Work() {
         <div>
           <SectionLabel>Selected Projects</SectionLabel>
           <h3 className="font-clash font-medium text-4xl md:text-6xl tracking-tight text-brandText">
-            <RevealText text="Web experiences built with code and care." as="span" mode="word" stagger={0.1} duration={1.0} />
+            <RevealText text="Web experiences built with care." as="span" mode="word" stagger={0.1} duration={1.0} />
           </h3>
         </div>
       </header>
