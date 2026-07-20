@@ -79,7 +79,7 @@ export default function Footer({ onCopyEmail, onScrollTo }: FooterProps) {
 
           <div className="lg:col-span-4 lg:text-right flex flex-col items-start lg:items-end gap-6">
             <RevealText
-              text="Based in Portugal, working worldwide."
+              text="Based in Portugal."
               as="p"
               mode="word"
               stagger={0.015}
