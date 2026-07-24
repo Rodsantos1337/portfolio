@@ -54,6 +54,6 @@ Node engine: `>=22.12.0`. Uses pnpm with `node-linker=hoisted`.
 
 ## Links
 
-- [rodrigosantos.dev](https://rodrigosantos.dev) — live site
+- [rodrigo-portfolio.pages.dev](rodrigo-portfolio.pages.dev) — live site
 - [GitHub](https://github.com/Rodsantos1337)
 - [LinkedIn](https://www.linkedin.com/)
