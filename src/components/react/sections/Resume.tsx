@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 export default function Resume() {
   return (
-    <section className="relative min-h-screen pt-20 md:pt-20 pb-8 md:pb-10 px-4 md:px-6">
+    <section className="relative min-h-screen pt-24 md:pt-28 pb-8 md:pb-10 px-4 md:px-6">
       <div>
         <div className="flex items-center justify-between mb-4">
           <h1 className="font-clash font-semibold text-xl text-brandText tracking-tight">
@@ -29,7 +29,7 @@ export default function Resume() {
         <div className="bg-bgSurface border border-bgBorder rounded-lg overflow-hidden">
           <iframe
             src="/Rodrigo-Santos-Resume.pdf#view=Fit"
-            className="w-full h-[calc(100vh-140px)] md:h-[calc(100vh-150px)]"
+            className="w-full h-[calc(100vh-160px)] md:h-[calc(100vh-180px)]"
             title="Rodrigo Santos — Resume"
           />
         </div>
