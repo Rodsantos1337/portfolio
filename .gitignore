@@ -29,3 +29,6 @@ COPY-new.md
 
 # scripts (utility only, not part of the app)
 scripts/
+
+# duplicate of public/Rodrigo-Santos-Resume.pdf
+/Rodrigo-Santos-Resume.pdf

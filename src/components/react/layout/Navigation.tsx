@@ -90,6 +90,19 @@ export default function Navigation({ onScrollTo }: NavigationProps) {
         </div>
 
         <div className="flex items-center gap-4">
+          {/* Resume link (Desktop) */}
+          <a
+            href="/resume"
+            onClick={(e) => {
+              if (window.location.pathname === "/resume") {
+                e.preventDefault();
+              }
+            }}
+            className="hidden sm:inline-flex text-sm font-mono text-brandTextMuted hover:text-brandGreen transition-colors"
+          >
+            Resume
+          </a>
+
           {/* GitHub button (Desktop) */}
           <Button
             variant="secondary"
@@ -194,6 +207,14 @@ export default function Navigation({ onScrollTo }: NavigationProps) {
               </div>
             </Button>
             <div className="flex gap-4 justify-start text-xs font-mono text-brandTextMuted">
+              <a
+                href="/resume"
+                onClick={() => setIsMenuOpen(false)}
+                className="hover:text-brandGreen transition-colors"
+              >
+                Resume
+              </a>
+              <span>•</span>
               <a
                 href="https://github.com/Rodsantos1337"
                 target="_blank"

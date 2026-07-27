@@ -17,6 +17,7 @@ import Marquee from "./sections/Marquee";
 import Work from "./sections/Work";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
+import Resume from "./sections/Resume";
 import LazyVideo from "./ui/LazyVideo";
 
 import { topMarqueeItems, bottomMarqueeItems } from "../../data/skills";
@@ -24,7 +25,7 @@ import { siteConfig } from "../../data/site";
 import { useCopyToClipboard } from "../../hooks/useCopyToClipboard";
 
 interface AppProps {
-  page?: "home" | "contact";
+  page?: "home" | "contact" | "resume";
 }
 
 export default function App({ page = "home" }: AppProps) {
@@ -179,6 +180,11 @@ export default function App({ page = "home" }: AppProps) {
                 <Footer onCopyEmail={handleCopyEmail} onScrollTo={handleScrollTo} />
               </div>
             </section>
+          </>
+        ) : page === "resume" ? (
+          <>
+            <Resume />
+            <Footer onCopyEmail={handleCopyEmail} onScrollTo={handleScrollTo} />
           </>
         ) : (
           <>
