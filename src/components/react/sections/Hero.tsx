@@ -122,7 +122,7 @@ export default function Hero() {
             stagger={0.08}
             duration={1.0}
             className="text-brandTextMuted text-base md:text-lg leading-relaxed font-normal"
-            text="Designing and building high-fidelity marketing sites and interactive digital experiences."
+            text="Turning Figma designs into accessible, production-ready code across Webflow, React, and TypeScript."
           />
         </div>
       </div>

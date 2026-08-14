@@ -29,45 +29,31 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "waymark",
-    title: "Waymark",
+    id: "comparador",
+    title: "Comparador",
     description:
-      "A data-rich annual report landing page for healthcare transformation. Built interactive charts and custom UI layouts to present complex healthcare statistics cleanly.",
+      "Next.js and TypeScript app comparing real-time grocery prices across retailers, with Vitest-tested parsers, debounced search, autocomplete, and a dark responsive UI.",
     image:
-      "/waymark.png",
-    imageAlt: "Waymark healthcare data analytics dashboard",
-    url: "https://www.waymarkcare.com/medicaid-transformation-report",
+      "/comparador.png",
+    imageAlt: "Comparador grocery price comparison app",
+    url: "https://comparador-fawn.vercel.app/",
     meta: [
-      { label: "Role", value: "Interactive Developer" },
-      { label: "Stack", value: "Webflow, Custom CSS, JS" },
+      { label: "Role", value: "Developer" },
+      { label: "Stack", value: "Next.js, TypeScript, Vitest" },
     ],
   },
   {
-    id: "xethub",
-    title: "Old XetHub website",
+    id: "book-buddy",
+    title: "BookBuddy",
     description:
-      "Landing page for a developer-focused ML versioning platform. Built clean, responsive product layouts, interactive feature grids, and custom integrations.",
+      "React and TypeScript app integrating the Open Library API with LLM-assisted search for contextual book discovery. Strictly typed with Vitest test coverage.",
     image:
-      "/xethub.png",
-    imageAlt: "XetHub ML versioning platform code interface",
-    url: "https://xethub-staging.webflow.io/",
+      "/book-buddy.png",
+    imageAlt: "BookBuddy book discovery app",
+    url: "https://book-buddy.rod-santos122.workers.dev/",
     meta: [
-      { label: "Role", value: "Frontend Developer" },
-      { label: "Stack", value: "Webflow, Custom Interactions" },
-    ],
-  },
-  {
-    id: "gbuilder",
-    title: "GBuilder",
-    description:
-      "SaaS marketing website for a real estate BIM platform. Engineered custom scroll-triggered animations and responsive layout structures to showcase complex technical tools.",
-    image:
-      "/gbuilder.png",
-    imageAlt: "GBuilder modern architecture BIM platform",
-    url: "https://www.gbuilder.com/",
-    meta: [
-      { label: "Role", value: "Frontend Developer" },
-      { label: "Stack", value: "Webflow, GSAP, JavaScript" },
+      { label: "Role", value: "Developer" },
+      { label: "Stack", value: "React, TypeScript, Open Library API" },
     ],
   },
 ];

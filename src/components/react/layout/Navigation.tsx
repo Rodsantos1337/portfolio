@@ -204,7 +204,7 @@ export default function Navigation({ onScrollTo }: NavigationProps) {
               </a>
               <span>•</span>
               <a
-                href="https://www.linkedin.com/"
+                href="https://linkedin.com/in/rodrigo-santos122"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-brandGreen transition-colors"

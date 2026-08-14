@@ -11,22 +11,22 @@
 
 /** Top marquee band — tools and craft areas. */
 export const topMarqueeItems = [
-  "Webflow Development",
-  "Custom JavaScript",
+  "Webflow",
   "React",
   "TypeScript",
-  "GSAP Animation",
-  "Astro",
-  "Component Architecture",
-  "Responsive Design",
+  "Next.js",
+  "Tailwind CSS",
+  "GSAP",
+  "Accessibility",
+  "Vitest",
 ] as const;
 
 /** Bottom marquee band — working philosophy and values. */
 export const bottomMarqueeItems = [
-  "Finsweet Client-First",
-  "Scroll-Synced Interactions",
+  "Design Systems",
+  "Figma to Code",
+  "Component Architecture",
+  "Performance Tuning",
   "Semantic HTML Structure",
-  "Performance Optimization",
-  "Pixel-Precise Layouts",
   "Clean, Maintainable Code",
 ] as const;

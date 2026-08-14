@@ -42,7 +42,7 @@ export default function About() {
                 <RevealText text="Core Focus" as="span" mode="char" stagger={0.02} duration={1.0} />
               </dt>
               <dd className="text-brandText font-medium mt-1">
-                <RevealText text="Webflow Development, Custom JS & GSAP, Component Design, React, Astro" as="span" mode="word" stagger={0.02} duration={1.0} />
+                <RevealText text="Webflow Development, React & TypeScript, Next.js, GSAP, Component Architecture" as="span" mode="word" stagger={0.02} duration={1.0} />
               </dd>
             </div>
             <div>
@@ -75,7 +75,7 @@ export default function About() {
           <div className="h-[1px] bg-bgBorder w-full my-4" />
 
           <RevealText
-            text="Over the past four years, I have built production-ready, client-first web experiences. I polished my skills within the remote creative agency Better Mistakes also handled direct client communication as a top-rated freelancer,"
+            text="Over the past three years, I have shipped production, accessible websites for global companies. I polished my skills within the remote creative agency Better Mistakes and handled direct client communication as a top-rated freelancer."
             as="p"
             mode="word"
             stagger={0.015}
@@ -83,7 +83,7 @@ export default function About() {
           />
 
           <RevealText
-            text="My development style is influenced by modern frontend practices. Working with React, Astro, and TypeScript taught me to think in reusable components and predictable states. Bringing this structured mindset to Webflow lets me build custom marketing platforms that look premium, remain easy for clients to update, and load instantly."
+            text="My development style is influenced by modern frontend practices. Working with React, TypeScript, and Next.js taught me to think in reusable components and predictable states. Bringing this structured mindset to Webflow lets me build custom marketing platforms that look premium, remain easy for clients to update, and load instantly."
             as="p"
             mode="word"
             stagger={0.015}
