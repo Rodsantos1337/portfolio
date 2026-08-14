@@ -91,7 +91,7 @@ export default function About() {
           />
 
           <RevealText
-            text="Before focusing fully on frontend development, I completed my degree in Audiovisual and Multimedia at ESCS and spent two years creating motion graphics at Bright Lisbon Agency. This design background ensures that every micro-interaction and custom GSAP scroll animation I build feels natural, intentional, and physically fluid."
+            text="Before focusing fully on frontend development, I completed my degree in Audiovisual and Multimedia at ESCS, where a wide-ranging curriculum in photography, video, and web code shaped how I think about interfaces. That design background ensures every micro-interaction and custom GSAP scroll animation I build feels natural, intentional, and physically fluid."
             as="p"
             mode="word"
             stagger={0.015}

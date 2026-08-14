@@ -1,7 +1,7 @@
 /** Centralized site-wide configuration and personal information. */
 export const siteConfig = {
   name: "Rodrigo Santos",
-  title: "Frontend Developer · Design-to-Code · Webflow, React & TypeScript",
+  title: "Frontend Developer · Design-to-Code",
   tagline:
     "Turning Figma designs into accessible, production-ready code across Webflow, React, and TypeScript.",
   email: "rod.santos122@gmail.com",
