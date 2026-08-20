@@ -46,14 +46,14 @@ export const projects: Project[] = [
     id: "book-buddy",
     title: "BookBuddy",
     description:
-      "React and TypeScript app integrating the Open Library API with LLM-assisted search for contextual book discovery. Strictly typed with Vitest test coverage.",
+      "React and TypeScript full-stack app using LLM tool calling against the Google Books API for conversational discovery. Hono backend on Cloudflare Workers, tested with Vitest.",
     image:
       "/book-buddy.png",
     imageAlt: "BookBuddy book discovery app",
     url: "https://book-buddy.rod-santos122.workers.dev/",
     meta: [
       { label: "Role", value: "Developer" },
-      { label: "Stack", value: "React, TypeScript, Open Library API" },
+      { label: "Stack", value: "React, TypeScript, Google Books API, Hono" },
     ],
   },
 ];
