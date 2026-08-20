@@ -85,13 +85,18 @@ export default function Hero() {
                 {char}
               </span>
             ))}
-            <span className="hero-char-mask relative w-[0.78em] h-[0.78em] mx-[0.03em] rounded-full overflow-hidden cursor-pointer inline-block transition-all duration-300 ease-out hover:ring-2 hover:ring-brandGreen">
+            <a
+              href="https://www.linkedin.com/in/rodrigo-santos122/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero-char-mask relative w-[0.78em] h-[0.78em] mx-[0.03em] rounded-full overflow-hidden cursor-pointer inline-block transition-all duration-300 ease-out hover:ring-2 hover:ring-brandGreen group"
+            >
               <img
                 src="/rodrigo-santos.jpeg"
-                alt="O"
-                className="w-full h-full object-cover rounded-full select-none"
+                alt="O - LinkedIn Profile"
+                className="w-full h-full object-cover rounded-full select-none group-hover:scale-105 transition-transform duration-300"
               />
-            </span>
+            </a>
           </h1>
         </div>
 
